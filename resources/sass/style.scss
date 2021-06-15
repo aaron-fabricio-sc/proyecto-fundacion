@@ -1,0 +1,82 @@
+@import "variables";
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: url(../textura/tweed.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: $fuente1;
+    color: $color4;
+}
+.input {
+    background: rgba($color: $color3, $alpha: 0.5);
+    width: 60%;
+    border-radius: 8px;
+    padding: $small;
+
+    &:focus {
+        background: rgba($color: $color2, $alpha: 0.5);
+
+        .option {
+            background: rgba($color: $color3, $alpha: 0.5);
+            color: black;
+        }
+    }
+}
+.tituloApp {
+    font-family: $fuente2;
+    text-align: center;
+    font-size: $font_bigxl;
+    color: white;
+    margin: $big 0;
+}
+.degrade {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+@media screen and(max-width:768px) {
+    .tituloApp {
+        font-size: $font_normal;
+    }
+}
+
+// navbar
+
+@import "navbar";
+
+@import "imagen";
+
+@import "menu";
+@import "listado";
+@import "botones";
+@import "show";
+
+@import "formularios";
+@import "listaPersonas";
+//modificaiones de jetstream
+@import "modificaciones-jetstream/logo";
+@import "alerta";
+
+@import "listaUsuarios";
+
+@import "eliminarUsuario";
+
+@import "cabezera";
+
+
+
+optgroup{
+    display:none;
+}
+
+
+//adminlite
+
+@import "adminliteConfig/adminlite";

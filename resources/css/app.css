@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.btn-Eliminar{
+    @apply px-4 py-2 text-white bg-red-500 mx-1 rounded-md;
+}
+.btn-Eliminar:hover{
+    @apply bg-red-800;
+}
+.btn-Modificar{
+     @apply px-4 py-2 text-white bg-blue-500 mx-1 rounded-md;
+}
+.btn-Modificar:hover {
+    @apply  bg-blue-800;
+}
+
+.labels{
+    @apply text-green-800 block font-medium;
+}
+
+.inputs{
+    @apply border-green-500 bg-green-50 text-black rounded-md shadow-sm;
+}
+.inputs:focus{
+   @apply border-green-500 ring ring-green-300 ring-opacity-50 ;
+}

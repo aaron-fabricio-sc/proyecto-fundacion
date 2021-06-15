@@ -1,0 +1,13 @@
+.color_nav {
+    position: sticky;
+    top: 0;
+    background-color: $color3;
+    &__links:hover {
+        background: $color1;
+    }
+
+    .menu-perfil {
+        position: absolute;
+        z-index: 1000;
+    }
+}

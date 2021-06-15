@@ -1,0 +1,32 @@
+.admin-topnav {
+    background-color: $color3;
+    /*  box-sizing: border-box;
+    margin-left: 300px !important; */
+}
+.admin-brand {
+    border-bottom: 1px solid white;
+}
+.admin-wrapper {
+    background: transparent;
+}
+.admin-sidebar {
+    background-color: $color3;
+    /*   width: 300px; */
+
+    p {
+        color: white;
+    }
+}
+.admin-content {
+    .card {
+        background: rgb(237, 237, 237);
+    }
+}
+.admin-header {
+    text-align: center;
+
+    font: bold;
+    h1 {
+        color: white;
+    }
+}

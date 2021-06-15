@@ -1,0 +1,28 @@
+.show{
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: .5);
+    color: white;
+    padding: 20px;
+    h1{
+        text-align: center;
+        font-size: $font-bigxl;
+        font-weight: 800;
+    }
+    &__Link{
+        font-size: $big;
+        color: cyan;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    p{
+        margin: $small;
+        font-size: $font-normal;
+        b{
+            color: cyan;
+        }
+    }
+    
+}

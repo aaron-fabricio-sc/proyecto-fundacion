@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,cADU,CACV,0BAA0B,CAAA;EACtB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAa;CACvC",
+    "sources": [
+        "../../resources/sass/listaPersonas.scss"
+    ],
+    "names": [],
+    "file": "listaPersonas.css"
+}
